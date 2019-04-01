@@ -13,7 +13,11 @@ class GroupTableViewCell: UITableViewCell {
   
     
 
+    @IBOutlet weak var photoCell: UIImageView!
+    @IBOutlet weak var viewPhotoCell: UIView!
+    
     @IBOutlet weak var groupName: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
